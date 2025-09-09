@@ -6,11 +6,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css"> <!--külső stíluslap csatolása-->
     <title>Document</title> <!--weboldal címe-->
+    <style>
+        h1 {
+            color: aliceblue;
+        }
+    </style>
 </head>
 <body>
     <h1></h1> - <h6></h6> <!--címsor-->
-    <p></p> <!--bekezdés-->
-    <img src="img/kep.jpg" alt="" title=""> <!--kép beillesztése-->
-    <a href="" target="_blank"></a>
+    <p style="width: auto;"></p> <!--bekezdés-->
+    <img src="img/kep.jpg" alt="ha nem jeleníthető meg a kép" title="a kép címe megjelenik ha a kép felé viszem az egeret"> <!--kép beillesztése-->
+    <a href="" target="_blank"></a> <!--hivatkozás-->
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul> <!--számozatlan feksorolás - emmet: ul>li*3 -->
+    <ol>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ol> <!--számozott feksorolás - emmet: ol>li*3 -->
+    <table> <!--táblázat készítése-->
+        <thead> <!--táblázat fej része-->
+            <tr> <!--táblázat sora-->
+                <th></th> <!--fejléc cella-->
+                <th></th>
+            </tr>
+        </thead>
+        <tbody> <!--táblázat törzs része-->
+            <tr>
+                <td></td> <!--adatcella-->
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+    <br> <!--sortörés-->
+    <span></span> <!--szövegkijelölés, egyedileg formázás-->
+    <b></b> vagy <strong></strong> <!--félkövér-->
+    <i></i> vagy <em></em> <!--dőlt-->
+    <u></u> <!--aláhúzott-->
+    <sub></sub> <!--alsó index-->
+    <sup></sup> <!--felső index-->
+
+    <ul id="cica"> <!--egyedi azonosító-->
+        <li></li>
+        <li></li>
+    </ul>
+    <p class="kutya"></p> <!--osztályjelölő-->
 </body>
 </html>
