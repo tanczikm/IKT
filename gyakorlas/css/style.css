@@ -1,3 +1,63 @@
+* {
+    color: aliceblue; /* betűszín */
+} /* az összes html elemet formázza */
+
 body {
-    
+    font-family: 'Courier New', Courier, monospace; /* betűkészlet */
+    background-color: rgb(255, 255, 255); /* háttérszín */
+    background-image: url(../img/hatter.jpg); /* háttérkép beállítása */
+    border: 3px solid  #ffffff; /* szegély beállítása, 3 képpont, folytonos vonalú, fehér színű */
+    padding: 0 15px; /* belső margó függőlegesen 0, vízszintesen 15px */
+    margin-left: 25px; /* külső margó bal oldalon 25px */
+    width: 100%; /* szélesség */
+    height: 200px; /* magasság */
+    text-align: justify; /* sorkizárt szöveg (vízszintesen) */
+    vertical-align: middle; /* középre helyezés függőlegesen */
+    text-decoration: none; /* aláhúzás megszüntetése */
+    text-decoration: underline; /* aláhúzás */
+    text-transform: uppercase; /* nagybetűssé tétel */
+    font-variant: small-caps; /* kiskapitális */
+    font-style: italic; /* dőlt betű */
+    font-weight: bold; /* félkövér */
+    font-size: 1em; /* betűméret, alapértelmezett betűméret 1em = 16px */
+}
+
+a:link {
+    /* a hivatkozás alapbeállítása: kék színű, aláhúzott */
+}
+
+a:visited {
+    /* az oldal látogatása: lila vagy indigó kék az alapszíne */
+}
+
+a:hover {
+    /* ha felé viszem az egeret, akkor történik valami */
+}
+
+a:active {
+    /* a weboldalon aktuálisan hol tartózkodok */
+}
+
+#cica {
+    /* egyedi azonosító formázása */
+}
+
+.kutya {
+    /* osztályjelölő formázása */
+}
+
+p.kutya {
+    /* azokat a bekezdéseket szerkesztem, ahol kutya osztályjelölő van */
+}
+
+h1, h2  {
+    /* csoportos szerkesztés */
+}
+
+ul {
+    list-style-image: url(../img/hatter.jpg); /* listaelem stílus kép formázása */
+}
+
+.lablec a:hover {
+    /* lábléc osztályjelölő hivatkozása, ha felé viszem az egeret */
 }
