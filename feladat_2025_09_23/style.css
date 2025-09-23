@@ -1,0 +1,50 @@
+body {
+    background-color: burlywood;
+    color: rgb(94, 26, 26);
+}
+
+h1 {
+    text-transform: uppercase;
+    border-bottom: 3px solid rgb(94, 26, 26);
+}
+
+img {
+    display: block;
+    margin-top: 10%;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.container-fluid {
+    padding: 2%;
+}
+
+h3 {
+    font-variant: small-caps;
+    text-decoration: underline;
+}
+
+li {
+    list-style-type:circle;
+}
+
+a {
+    display: inline-block;
+    text-align: center;
+    width: auto;
+    margin-top: 20px;
+
+    text-decoration: none;
+    color: burlywood;
+    background-color: rgb(121, 35, 35);
+    padding: 5px;
+    border-radius: 5px;
+    font-size: larger;
+    font-weight: bold;
+}
+
+a:hover {
+    background-color: rgb(101, 29, 29);
+}
