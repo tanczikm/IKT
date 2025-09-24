@@ -15,6 +15,7 @@ img {
     margin-left: auto;
     width: 100%;
     border-radius: 10px;
+    
 }
 
 .container-fluid {
@@ -27,14 +28,19 @@ h3 {
 }
 
 li {
-    list-style-type:circle;
+    list-style-type: '➤ ';;
 }
 
-a {
+.haziasitas > li{
+    list-style-type: square;
+}
+
+#wikipedia {
     display: inline-block;
     text-align: center;
     width: auto;
-    margin-top: 20px;
+    margin-top: 5px;
+    margin-bottom: 10px;
 
     text-decoration: none;
     color: burlywood;
@@ -45,6 +51,27 @@ a {
     font-weight: bold;
 }
 
-a:hover {
+#wikipedia:hover {
     background-color: rgb(101, 29, 29);
+}
+
+
+#ugras {
+    border-top: 3px solid rgb(121, 35, 35);
+    text-align: center;
+    padding-top: 5px;
+    a {
+        text-decoration: none;
+        color: rgb(121, 35, 35);
+        font-size: large;
+    }
+}
+
+#ugras > a:hover {
+    font-weight: bold;
+}
+
+img:hover {
+    transform: scale(1.02);
+    transition: 0.3s;
 }
