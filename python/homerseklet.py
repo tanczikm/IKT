@@ -18,13 +18,11 @@ elif testho >= 36.1 and 38 >= testho:
     valasz = "Hőemelkedésed van, pihenj le."
 
 elif testho >= 38.1 and 39.5 >= testho:
-    valasz = "Lázas vagy, szedjél be valami szert aztán aludjál."
+    valasz = "Feküdj le, vegyél be lázcsillapítót, amennyiben a láz fájdalommal is jár, pihenj, igyál sokat."
 
-elif testho >= 39.5 and 42 >= testho:
-    valasz = "Ez már nem vicc, hívjál mentőt, irány a kórház."
+else:
+    valasz = "Keresd fel az orvost, kérj segítséget."
 
-elif testho >= 42.1:
-    valasz = "Meleg vagy."
 
 print("")
 print("")
