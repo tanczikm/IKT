@@ -22,3 +22,12 @@ elif ido > 18:
     print(f"Jó estét, {nev}!")
 
 print("------------------------------------------------------------------------------------------------------")
+
+
+# köszönés def függvénnyel
+
+def koszon(name):
+    print(f"Szia kedves {name}, legyen szép napod!")
+
+koszon("Péter")
+koszon("Tibi")
