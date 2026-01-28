@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 
 body {
-	
+	font-family: Rubik;
 	background-image: radial-gradient(rgb(110, 83, 66), rgb(212, 174, 125));
 }
 
 #fejlec {
-	
+	width: 100%;
 	height: 100%;
 }
 
@@ -19,12 +19,12 @@ body {
     color:rgb(13, 1, 81);
 	text-shadow: 0px 2px 5px rgb(233, 206, 160);
     max-width: 100%;
-	
-	
+	font-weight: bold;
+	text-transform: capitalize;
 }
 
 nav li {
-	
+	border-right: 3px dotted orange;
 	padding: 0 15px;
 }
 
@@ -41,7 +41,7 @@ h2{
 	text-shadow: 5px 5px 10px rgb(185, 93, 0);
 	font-variant: small-caps;
 	font-weight: bold;
-	font-size: 1em;
+	font-size: 2.5em;
 }
 
 ol li {
@@ -49,7 +49,7 @@ ol li {
 }
 
 .bagoly {
-	
+	background-color: #f0edd1;
 	border: 2px solid black;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -59,9 +59,9 @@ tr td:first-child {
 }
 
 .lablec a {
-	
+	color: white;
 	font-weight: bold;
-	
+	text-decoration: none;
 }
 
 .lablec a:hover {
@@ -75,6 +75,10 @@ tr td:first-child {
 }
 
 #taplalek {
-	
+	list-style-image: url(../img/bagoly.png);
 	margin-left: 25px;
+}
+
+p {
+	text-align: justify;
 }
