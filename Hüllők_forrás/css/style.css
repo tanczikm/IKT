@@ -2,13 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Snowburst+One&display=swap');
 
 body {
-	
+	font-family: Rubik;
 	background-color: #cccccc;
     background-image: radial-gradient(rgb(140, 255, 0), rgb(2, 145, 255));
 }
 
 #fejlec {
-	
+	width: 100%;
 	height: 100%;
 }
 
@@ -23,12 +23,12 @@ body {
 	text-shadow: 0px 2px 5px rgba(255, 213, 130, 1);
     max-width: 100%;
 	font-variant: small-caps;
-
+	font-weight: bold;
 }
 
 nav li {
-	
-	
+	border: 3px dotted #39FF14;
+	padding: 0px 15px
 }
 
 .nav-link {
@@ -63,8 +63,8 @@ h2{
 }
 
 dd {
-	
-	font-size: 1em;
+	font-style: italic;
+	font-size: 0.9em;
 	max-width: 95%;
 	margin-left: 1vw;
 }
@@ -74,7 +74,7 @@ dd {
 }
 
 .hullo{
-	
+	background-color: rgb(210, 255, 173) ;
 	border: 2px solid black;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -95,11 +95,11 @@ tr td:first-child {
 .lablec a {
 	color: #39FF14;
 	font-weight: bold;
-	
+	text-decoration: none;
 }
 
 .lablec a:hover {
-	
+	text-transform: uppercase;
 }
 
 .navbar {
@@ -109,7 +109,10 @@ tr td:first-child {
 }
 
 #gyik {
-	
+	list-style-image: url(../img/gyik.png);
 	margin-left: 25px;
 }
 
+p {
+	text-align: justify;
+}
