@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="hu">
 
 	<head>
-
+		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
 		<link rel="stylesheet" href="bootstrap/bootstrap.min.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<script src="bootstrap/jquery.min.js"></script>
 		<script src="bootstrap/popper.min.js"></script>
 		<script src="bootstrap/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="css/style.css">
+		<title>Macskafélék</title>
 	</head>
 
 	<body>
@@ -16,7 +18,7 @@
 		<header class="container">
 			<div class="row">
 				<div class="col-12">
-					<p class="d-block d-sm-block">Macskafélék</p>
+					<h1 class="d-block d-sm-block">Macskafélék</h1>
 				</div>
 			</div>
 		</header>
@@ -35,6 +37,9 @@
 						<li class="nav-item">
 							<a class="nav-link text-dark font-weight-bold" href="#erzekeles">Érzékelés</a>
 						</li>
+						<li class="nav-item">
+							<a class="nav-link text-dark font-weight-bold" href="#erdekesseg">Érdekesség</a>
+						</li>
 					</ul>
 				
 			</nav>
@@ -46,7 +51,7 @@
 						<div class="p-3 h-100 info">
 							<h2>Rövid ismertetés</h2>
 							<img class="jobbra" src="img/ragadozok.jpg" alt="Ragadozók" title="Ragadozók">
-							<p>A macskafélék <span>(Felidae)</span> az emlősök osztályába, azon belül a <span class="felkover">ragadozók</span> rendjébe tartozó család. Ausztrália (ide később az ember telepítette be őket) és Antarktika kivételével minden kontinensen és a legtöbb szigeten jelen vannak.</p>
+							<p>A macskafélék <span id="dolt">(Felidae)</span> az emlősök osztályába, azon belül a <span class="felkover">ragadozók</span> rendjébe tartozó család. Ausztrália (ide később az ember telepítette be őket) és Antarktika kivételével minden kontinensen és a legtöbb szigeten jelen vannak.</p>
 							<p>Csodás alkalmazkodóképességük és vadásztechnikáik lehetővé tették azt, hogy minden élőhelyen kiválóan boldoguljanak, a trópusi esőerdőktől egészen a kopár sivatagokig. Megjelenésük is sokféle lehet: vannak kis termetű, fáramászó, karcsú vadászok, ugyanakkor hatalmas, erőteljes fajaik is léteznek.</p>
 							
 						</div>
@@ -71,7 +76,7 @@
 							<div class="card" style="width: 80%;margin:auto">
 								<img class="card-img-top" src="img/csontvaz.jpg" alt="Csontozat" title="Csontozat">
 								<div class="card-body">
-								  <p class="card-text text-center">Csontozat</p>
+								  <p class="card-text text-center font-weight-bold">Csontozat</p>
 								</div>
 							  </div>
 						</div>
@@ -79,11 +84,14 @@
 					<!-- Lábak -->
 					<div class="col-12 col-md-6 p-2">
 						<div class="p-3 h-100 info">
-							
+							<h3>Lábak</h3>
+							<p>A macskafélék a kutyafélékhez hasonlóan a lábujjaikon járnak (az emberrel vagy a medvefélékkel ellentétben, amelyek inkább a talpukat használják), csontjaik a láb alsó részét feljebb emelik. A macskák járása nagyon kifinomult, hátsó lábukat pontosan a mellső lábuk nyomába helyezik el, csökkentve ezzel a zajt és a látható nyomok számát. Ez előnyt jelent a durva talajon való haladásnál is, mert csak elülső lábaik számára kell megfelelő helyet találniuk.</p>
+							<p>A kutyáktól és más emlősöktől eltérően a macskák előbb az egyik oldalukon lépnek mindkét lábukkal, majd ezt követően lépnek a többivel (ahogyan a tevék és a zsiráfok, habár ezen állatok között nincs olyan kapcsolat, ami magyarázattal szolgálna erre a hasonlóságra).</p>
+							<p>A gepárd kivételével valamennyi macskaféle behúzható karmokkal rendelkezik, melyek nyugalmi helyzetben a lábujjak közti tokokban helyezkednek el. Ez megóvja a karmokat a kopástól és csendes járást biztosít a zsákmány megközelítése során.</p>			
 							<div class="card" style="width: 80%; margin:auto">
-								<img class="card-img-top" src="">
+								<img class="card-img-top" src="img/lab.jpg" alt="Az oroszlán lába" title="Az oroszlán lába">
 								<div class="card-body">
-								  <p class="card-text text-center"> </p>
+								  <p class="card-text text-center font-weight-bold">Az oroszlán lába</p>
 								</div>
 							  </div>
 						</div>
@@ -98,7 +106,7 @@
 							<div class="card" style="width: 80%;margin:auto">
 								<img class="card-img-top" src="img/fogazat.jpg" alt="Fogazat" title="Fogazat">
 								<div class="card-body">
-								  <p class="card-text text-center">Fogazat</p>
+								  <p class="card-text text-center font-weight-bold">Fogazat</p>
 								</div>
 							  </div>
 						</div>
@@ -110,7 +118,7 @@
 							<div class="card" style="width: 80%; margin:auto">
 								<img class="card-img-top" src="img/bunda.jpg" alt="Bunda és mintázat" title="Bunda és mintázat">
 								<div class="card-body">
-								  <p class="card-text text-center">Bunda és mintázat</p>
+								  <p class="card-text text-center font-weight-bold">Bunda és mintázat</p>
 								</div>
 							  </div>
 						</div>
@@ -120,23 +128,27 @@
 
 			<!-- Záró -->
 			<div class="row">
-				<div class="col-12 col-md-6 p-2">
+				<div class="col-12 col-md-8 p-2">
 					<div class="p-3 h-100 info">
 						<!-- Érzékelés -->
 						<section id="erzekeles">
 							<h2>Érzékelés</h2>
 							<ul>
-								<li><span class="felkover">Szem: </span>A macskafélék érzékszervei közül a legszembetűnőbb a szemük, mely kitűnő látást biztosít nekik. Hatalmas pupillájuk rendkívül érzékeny, könnyedén összehúzódik a fényben, vagy tágra nyílik a sötétben. Kitűnő éjszakai látásukban a tapetum lucidum nevű fényvisszaverő anyag is jelentősen közrejátszik, mely több fényt ver vissza a retinára. Erős éjszakai fényben ettől „világít” a macskák szeme.</li>
-								<li><span class="felkover">Fül: </span>Másik fontos érzékszervük a nagy és érzékeny fül, mellyel a legkisebb neszt is meghallják, főleg a rágcsálókra vadászó kistestű macskák, például a vadmacska.</li>
-								<li><span class="felkover">Orr: </span>Szaglásuk is jó, de messze elmarad a kutyafélékétől. A kutyafélékhez viszonyítva orruk rövid, orrüregük kicsi. Ezt ellensúlyozza a szájpadlásukon található Jacobson-szerv (vagy vomeronazális szerv), mellyel tulajdonképpen képesek a „levegőt megízlelni”. Mikor az állat ráncolni kezdi a pofáját, az állát kissé leereszti, a nyelvét pedig kilógatja, akkor beereszti a levegőt a vomeronazális szervébe. Ez az állapot, melyet „tátogásnak” vagy „vigyorgásnak” is neveznek, megegyezik a más állatoknál, például a kutyáknál, lovaknál is megfigyelt flehmen-reakcióval.</li>
+								<li class="mancs"><span class="felkover">Szem: </span>A macskafélék érzékszervei közül a legszembetűnőbb a szemük, mely kitűnő látást biztosít nekik. Hatalmas pupillájuk rendkívül érzékeny, könnyedén összehúzódik a fényben, vagy tágra nyílik a sötétben. Kitűnő éjszakai látásukban a tapetum lucidum nevű fényvisszaverő anyag is jelentősen közrejátszik, mely több fényt ver vissza a retinára. Erős éjszakai fényben ettől „világít” a macskák szeme.</li>
+								<li class="mancs"><span class="felkover">Fül: </span>Másik fontos érzékszervük a nagy és érzékeny fül, mellyel a legkisebb neszt is meghallják, főleg a rágcsálókra vadászó kistestű macskák, például a vadmacska.</li>
+								<li class="mancs"><span class="felkover">Orr: </span>Szaglásuk is jó, de messze elmarad a kutyafélékétől. A kutyafélékhez viszonyítva orruk rövid, orrüregük kicsi. Ezt ellensúlyozza a szájpadlásukon található Jacobson-szerv (vagy vomeronazális szerv), mellyel tulajdonképpen képesek a „levegőt megízlelni”. Mikor az állat ráncolni kezdi a pofáját, az állát kissé leereszti, a nyelvét pedig kilógatja, akkor beereszti a levegőt a vomeronazális szervébe. Ez az állapot, melyet „tátogásnak” vagy „vigyorgásnak” is neveznek, megegyezik a más állatoknál, például a kutyáknál, lovaknál is megfigyelt flehmen-reakcióval.</li>
 							</ul>
 							<div class="card" style="margin:auto; width:80%">
 								<img class="card-img-top" src="img/erzekszervek.jpg" alt="Érzékszervek" title="Érzékszervek">
 								<div class="card-body">
-								  <p class="card-text text-center">Érzékszervek</p>
+								  <p class="card-text text-center font-weight-bold">Érzékszervek</p>
 								</div>
 							</div>
 							</section>
+
+						
+						
+
 						<!-- Ízlelés -->
 						<section id="izleles">
 							<h2>Ízlelés</h2>
@@ -144,7 +156,7 @@
 						</section>
 					</div>
 				</div>
-				<div class="col-12 col-md-6 p-2">
+				<div class="col-12 col-md-4 p-2">
 					
 					<div class="p-3 h-100 info">
 						<!-- Érdekesség -->
@@ -152,9 +164,9 @@
 							<h2>Érdekesség - A Liger</h2>
 							<p>A <span class="felkover">liger</span> apja oroszlán, anyja tigris. Ilyen egyedek a leggyakrabban állatkertekben vagy cirkuszokban születnek. Külsejük inkább az oroszlánéra emlékeztet, halvány tigriscsíkokkal (ritkán pettyekkel). A hím ligereknek néha egy kis sörényük is nő. Szüleiknél jóval nagyobbak, ráadásul hajlamosak az elhízásra. A liger a legnagyobb nagymacska: 3,5 méter hosszú, tömege akár egy szibériai tigrisének a kétszeresét is elérheti. Alig egy tucat él szerte a világon.</p>
 							<div class="card" style="margin:auto; width:80%">
-								<img class="card-img-top" >
+								<img class="card-img-top" src="img/liger.jpg" alt="Liger" title="Liger">
 								<div class="card-body">
-								  <p class="card-text text-center"> </p>
+								  <p class="card-text text-center font-weight-bold">Liger</p>
 								</div>
 							</div>
 							<p>A tigrisektől örökölt tulajdonságként általában szereti a vizet.</p>
@@ -169,7 +181,7 @@
 		
 		<!-- Lábléc -->	
 		<div class="lablec text-center p-2 mt-1 bg-warning container">
-			
+			<a href="https://hu.wikipedia.org/wiki/Macskafélék" target="_blank">Forrás: Wikipédia</a>
 		</div>
 	</body>
 

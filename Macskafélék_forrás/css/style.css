@@ -22,18 +22,24 @@ h1,h2,h3{
 .jobbra{
 	width: 250px;
 	margin-left:20px;
+	float: right;
 }
 
 .info{
-
+	background-color: rgb(255, 242, 207);
+	border: 2px solid rgb(0, 0, 0);
+	border-radius: 12px;
 }
 
 .lablec a{
-	
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
 }
 
 .lablec a:hover{
-	
+	color: red;
+	font-style: italic;
 }
 
 
@@ -43,4 +49,17 @@ h1,h2,h3{
 
 .mancs{
 	margin-top:10px;
+	list-style-image: url(../img/mancs.png);
+}
+
+.felkover {
+	font-weight: bold;
+}
+
+body {
+	background-image: url(../img/hatter.jpg);
+}
+
+p {
+	text-align: justify;
 }
