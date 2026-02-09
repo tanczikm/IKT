@@ -1,0 +1,46 @@
+header{
+	background-image:url('../img/fejlec.jpg');
+	height:260px;
+	background-position:center center;
+	background-repeat:no-repeat;
+	margin-top:15px;
+}
+
+header h1{
+	background-color:rgba(223,160,91,0.15);
+	padding-left:3rem;
+	margin-top:5px;
+	font-weight:bold;
+	color:white;
+}
+
+h1,h2,h3{
+	color:orange;
+	text-transform:capitalize;
+}
+
+.jobbra{
+	width: 250px;
+	margin-left:20px;
+}
+
+.info{
+
+}
+
+.lablec a{
+	
+}
+
+.lablec a:hover{
+	
+}
+
+
+#dolt{
+	font-style:italic;
+}
+
+.mancs{
+	margin-top:10px;
+}
