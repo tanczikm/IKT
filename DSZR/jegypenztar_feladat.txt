@@ -1,0 +1,31 @@
+Cim: Jegypénztár kalkulátor
+
+Kérd be a felhasználó életkorát, tanulói jogviszonyát (igen/nem) és azt, hogy bérletet vagy menetjegyet szeretne vásárolni, a minta szerint!
+Határozd meg a kedvezmény mértékét egy Kedvezmeny nevű függvénnyel:
+   - 100% kedvezmény: 14 év alatt vagy 65 év és felette.
+   - 90% kedvezmény: bérlet vásárlása esetén, ha a felhasználó tanuló.
+   - 50% kedvezmény: menetjegy vásárlása esetén, ha a felhasználó 14 és 25 év közötti (beleértve a határértékeket is).
+   - 0% kedvezmény: minden más esetben.
+Készíts egy FizetendoOsszeg nevű függvényt ami megkapja a teljes árat és a kedvezményt, majd visszaadja a kedvezményes árat.
+Ha a kedvezmény 100%, írd ki: "Ön ingyenes utazásra jogosult." és ne csináljon mást a program.
+Ha a kedvezmény kevesebb, mint 100%:
+   - Írd ki, hány százalék kedvezményre jogosult, vagy azt, hogy nem jogosult kedvezményre.
+   - Bérlet esetén: Kérdezd meg a típust! (vármegye: 9450 Ft, ország: 18900 Ft), majd a FizetendoOsszeg függvénnyel számold ki a fizetendő összeget.
+   - Menetjegy esetén: Kérdezd meg a távolságot (km)! Az első 10 km fixen 400 Ft, utána minden további kilométer +50 Ft. A FizetendoOsszeg függvénnyel számold ki a fizetendő összeget.
+A program végén írd ki a fizetendő összeget.
+
+
+
+Minta kód:
+
+Kérem, adja meg az életkorát! 20
+Mit szeretne vásárolni? (bérlet / menetjegy) menetjegy
+Rendelkezik tanulói jogviszonnyal? (igen / nem) igen
+Ön 50% kedvezményre jogosult.
+Milyen messzire szeretne utazni? (km) 15
+Fizetendő: 325 Ft
+
+Kérem, adja meg az életkorát! 10
+Mit szeretne vásárolni? (bérlet / menetjegy) bérlet
+Rendelkezik tanulói jogviszonnyal? (igen / nem) igen
+Ön ingyenes utazásra jogosult.
